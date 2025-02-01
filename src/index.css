@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}select {
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+select:hover {
+  background-color: #4f46e5;
+}
+
+option {
+  padding: 10px;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+option:hover {
+  background: #e2e8f0;
+}
